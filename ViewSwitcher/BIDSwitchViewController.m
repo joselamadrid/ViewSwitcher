@@ -7,6 +7,8 @@
 //
 
 #import "BIDSwitchViewController.h"
+#import "BIDBlueViewController.h"
+#import "BIDYellowViewController.h"
 
 @interface BIDSwitchViewController ()
 
@@ -17,8 +19,10 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
+    if (self)
+    {
+        self.blueViewController = [[BIDBlueViewController alloc] initWithNibName:@"BlueView" bundle:nil];
+        [self.view insertSubview:self.blueViewController.view atIndex:0];
     }
     return self;
 }
@@ -33,6 +37,15 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)switchViews:(id)sender
+{
+    if(self.yellowViewController.view.superview == nil)
+    {
+    
+    }
+
 }
 
 @end
