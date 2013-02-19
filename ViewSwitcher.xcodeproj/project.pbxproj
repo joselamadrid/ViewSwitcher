@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE07F6316D37E2500BF22CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE07F6216D37E2500BF22CB /* UIKit.framework */; };
+		CEE07F6516D37E2500BF22CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE07F6416D37E2500BF22CB /* Foundation.framework */; };
+		CEE07F6716D37E2500BF22CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE07F6616D37E2500BF22CB /* CoreGraphics.framework */; };
+		CEE07F6D16D37E2500BF22CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE07F6B16D37E2500BF22CB /* InfoPlist.strings */; };
+		CEE07F6F16D37E2500BF22CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE07F6E16D37E2500BF22CB /* main.m */; };
+		CEE07F7316D37E2500BF22CB /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE07F7216D37E2500BF22CB /* BIDAppDelegate.m */; };
+		CEE07F7516D37E2500BF22CB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE07F7416D37E2500BF22CB /* Default.png */; };
+		CEE07F7716D37E2500BF22CB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE07F7616D37E2500BF22CB /* Default@2x.png */; };
+		CEE07F7916D37E2500BF22CB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE07F7816D37E2500BF22CB /* Default-568h@2x.png */; };
+		CEE07F8116D37E7800BF22CB /* BIDSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE07F8016D37E7800BF22CB /* BIDSwitchViewController.m */; };
+		CEE07F8416D37F1F00BF22CB /* BIDBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE07F8316D37F1F00BF22CB /* BIDBlueViewController.m */; };
+		CEE07F8716D37F2900BF22CB /* BIDYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE07F8616D37F2900BF22CB /* BIDYellowViewController.m */; };
+		CEE07F8916D37F5100BF22CB /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE07F8816D37F5100BF22CB /* SwitchView.xib */; };
+		CEE07F8B16D37FA900BF22CB /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE07F8A16D37FA900BF22CB /* BlueView.xib */; };
+		CEE07F8D16D37FB800BF22CB /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE07F8C16D37FB800BF22CB /* YellowView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEE07F5E16D37E2500BF22CB /* ViewSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE07F6216D37E2500BF22CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEE07F6416D37E2500BF22CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEE07F6616D37E2500BF22CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEE07F6A16D37E2500BF22CB /* ViewSwitcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewSwitcher-Info.plist"; sourceTree = "<group>"; };
+		CEE07F6C16D37E2500BF22CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE07F6E16D37E2500BF22CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE07F7016D37E2500BF22CB /* ViewSwitcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewSwitcher-Prefix.pch"; sourceTree = "<group>"; };
+		CEE07F7116D37E2500BF22CB /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		CEE07F7216D37E2500BF22CB /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		CEE07F7416D37E2500BF22CB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CEE07F7616D37E2500BF22CB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CEE07F7816D37E2500BF22CB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEE07F7F16D37E7800BF22CB /* BIDSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSwitchViewController.h; sourceTree = "<group>"; };
+		CEE07F8016D37E7800BF22CB /* BIDSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSwitchViewController.m; sourceTree = "<group>"; };
+		CEE07F8216D37F1F00BF22CB /* BIDBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDBlueViewController.h; sourceTree = "<group>"; };
+		CEE07F8316D37F1F00BF22CB /* BIDBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDBlueViewController.m; sourceTree = "<group>"; };
+		CEE07F8516D37F2900BF22CB /* BIDYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDYellowViewController.h; sourceTree = "<group>"; };
+		CEE07F8616D37F2900BF22CB /* BIDYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDYellowViewController.m; sourceTree = "<group>"; };
+		CEE07F8816D37F5100BF22CB /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchView.xib; sourceTree = "<group>"; };
+		CEE07F8A16D37FA900BF22CB /* BlueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
+		CEE07F8C16D37FB800BF22CB /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE07F5B16D37E2500BF22CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE07F6316D37E2500BF22CB /* UIKit.framework in Frameworks */,
+				CEE07F6516D37E2500BF22CB /* Foundation.framework in Frameworks */,
+				CEE07F6716D37E2500BF22CB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE07F5316D37E2500BF22CB = {
+			isa = PBXGroup;
+			children = (
+				CEE07F6816D37E2500BF22CB /* ViewSwitcher */,
+				CEE07F6116D37E2500BF22CB /* Frameworks */,
+				CEE07F5F16D37E2500BF22CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE07F5F16D37E2500BF22CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE07F5E16D37E2500BF22CB /* ViewSwitcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE07F6116D37E2500BF22CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE07F6216D37E2500BF22CB /* UIKit.framework */,
+				CEE07F6416D37E2500BF22CB /* Foundation.framework */,
+				CEE07F6616D37E2500BF22CB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE07F6816D37E2500BF22CB /* ViewSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				CEE07F7F16D37E7800BF22CB /* BIDSwitchViewController.h */,
+				CEE07F8016D37E7800BF22CB /* BIDSwitchViewController.m */,
+				CEE07F8216D37F1F00BF22CB /* BIDBlueViewController.h */,
+				CEE07F8316D37F1F00BF22CB /* BIDBlueViewController.m */,
+				CEE07F8516D37F2900BF22CB /* BIDYellowViewController.h */,
+				CEE07F8616D37F2900BF22CB /* BIDYellowViewController.m */,
+				CEE07F8816D37F5100BF22CB /* SwitchView.xib */,
+				CEE07F8A16D37FA900BF22CB /* BlueView.xib */,
+				CEE07F8C16D37FB800BF22CB /* YellowView.xib */,
+				CEE07F7116D37E2500BF22CB /* BIDAppDelegate.h */,
+				CEE07F7216D37E2500BF22CB /* BIDAppDelegate.m */,
+				CEE07F6916D37E2500BF22CB /* Supporting Files */,
+			);
+			path = ViewSwitcher;
+			sourceTree = "<group>";
+		};
+		CEE07F6916D37E2500BF22CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE07F6A16D37E2500BF22CB /* ViewSwitcher-Info.plist */,
+				CEE07F6B16D37E2500BF22CB /* InfoPlist.strings */,
+				CEE07F6E16D37E2500BF22CB /* main.m */,
+				CEE07F7016D37E2500BF22CB /* ViewSwitcher-Prefix.pch */,
+				CEE07F7416D37E2500BF22CB /* Default.png */,
+				CEE07F7616D37E2500BF22CB /* Default@2x.png */,
+				CEE07F7816D37E2500BF22CB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE07F5D16D37E2500BF22CB /* ViewSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE07F7C16D37E2500BF22CB /* Build configuration list for PBXNativeTarget "ViewSwitcher" */;
+			buildPhases = (
+				CEE07F5A16D37E2500BF22CB /* Sources */,
+				CEE07F5B16D37E2500BF22CB /* Frameworks */,
+				CEE07F5C16D37E2500BF22CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewSwitcher;
+			productName = ViewSwitcher;
+			productReference = CEE07F5E16D37E2500BF22CB /* ViewSwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE07F5516D37E2500BF22CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Jose;
+			};
+			buildConfigurationList = CEE07F5816D37E2500BF22CB /* Build configuration list for PBXProject "ViewSwitcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEE07F5316D37E2500BF22CB;
+			productRefGroup = CEE07F5F16D37E2500BF22CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE07F5D16D37E2500BF22CB /* ViewSwitcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE07F5C16D37E2500BF22CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE07F6D16D37E2500BF22CB /* InfoPlist.strings in Resources */,
+				CEE07F7516D37E2500BF22CB /* Default.png in Resources */,
+				CEE07F7716D37E2500BF22CB /* Default@2x.png in Resources */,
+				CEE07F7916D37E2500BF22CB /* Default-568h@2x.png in Resources */,
+				CEE07F8916D37F5100BF22CB /* SwitchView.xib in Resources */,
+				CEE07F8B16D37FA900BF22CB /* BlueView.xib in Resources */,
+				CEE07F8D16D37FB800BF22CB /* YellowView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE07F5A16D37E2500BF22CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE07F6F16D37E2500BF22CB /* main.m in Sources */,
+				CEE07F7316D37E2500BF22CB /* BIDAppDelegate.m in Sources */,
+				CEE07F8116D37E7800BF22CB /* BIDSwitchViewController.m in Sources */,
+				CEE07F8416D37F1F00BF22CB /* BIDBlueViewController.m in Sources */,
+				CEE07F8716D37F2900BF22CB /* BIDYellowViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEE07F6B16D37E2500BF22CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE07F6C16D37E2500BF22CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE07F7A16D37E2500BF22CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEE07F7B16D37E2500BF22CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE07F7D16D37E2500BF22CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewSwitcher/ViewSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "ViewSwitcher/ViewSwitcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEE07F7E16D37E2500BF22CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewSwitcher/ViewSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "ViewSwitcher/ViewSwitcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE07F5816D37E2500BF22CB /* Build configuration list for PBXProject "ViewSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE07F7A16D37E2500BF22CB /* Debug */,
+				CEE07F7B16D37E2500BF22CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE07F7C16D37E2500BF22CB /* Build configuration list for PBXNativeTarget "ViewSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE07F7D16D37E2500BF22CB /* Debug */,
+				CEE07F7E16D37E2500BF22CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE07F5516D37E2500BF22CB /* Project object */;
+}
