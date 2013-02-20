@@ -95,12 +95,12 @@
 			children = (
 				CEE07F7F16D37E7800BF22CB /* BIDSwitchViewController.h */,
 				CEE07F8016D37E7800BF22CB /* BIDSwitchViewController.m */,
+				CEE07F8816D37F5100BF22CB /* SwitchView.xib */,
 				CEE07F8216D37F1F00BF22CB /* BIDBlueViewController.h */,
 				CEE07F8316D37F1F00BF22CB /* BIDBlueViewController.m */,
+				CEE07F8A16D37FA900BF22CB /* BlueView.xib */,
 				CEE07F8516D37F2900BF22CB /* BIDYellowViewController.h */,
 				CEE07F8616D37F2900BF22CB /* BIDYellowViewController.m */,
-				CEE07F8816D37F5100BF22CB /* SwitchView.xib */,
-				CEE07F8A16D37FA900BF22CB /* BlueView.xib */,
 				CEE07F8C16D37FB800BF22CB /* YellowView.xib */,
 				CEE07F7116D37E2500BF22CB /* BIDAppDelegate.h */,
 				CEE07F7216D37E2500BF22CB /* BIDAppDelegate.m */,
@@ -305,6 +305,7 @@
 				CEE07F7E16D37E2500BF22CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
